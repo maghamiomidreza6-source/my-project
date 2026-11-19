@@ -1,0 +1,27 @@
+{
+  "name": "issue-tracker-backend",
+  "version": "1.0.0",
+  "description": "Issue & Sprint Task Tracking REST API built with Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maghamiomidreza6-source/my-project.git"
+  },
+  "keywords": [
+    "issue-tracker",
+    "tasks-api",
+    "express",
+    "docker",
+    "rest-api"
+  ],
+  "author": "maghamiomidreza6-source",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
